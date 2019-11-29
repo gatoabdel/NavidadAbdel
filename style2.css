@@ -1,0 +1,152 @@
+
+.interior{
+ position: absolute;
+    
+ 
+    
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.interior img{
+    width: 100%;
+    height: 100%;
+}
+.cartel3{
+    position: absolute;
+    z-index: 2;
+    left: 32%;
+    top: 40%;
+    width: 7vw;
+}
+.arbol{
+    position: absolute;
+    z-index: 3;
+    right: 20%;
+    bottom: 0%;
+    width: 20vw;
+}
+.titutlo {
+    color: yellow;
+    font-size: 2vw;
+    position: absolute;
+    font-family: "Jokerman";
+    left: 20%;
+    animation-name: titutlo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    z-index: 1;
+    top: 10%;
+    
+}
+@keyframes titutlo{
+    0%{
+        color: darkviolet;
+    transform: none;
+    
+    }
+    25%{
+        color: red;
+    }
+     50%{
+         color: aqua;
+    transform: scale(1.4);
+    }
+    75%{color: saddlebrown;
+    
+    }
+    100%{
+        color: green;
+    transform: none;
+    }
+}
+.luzArbol{
+    position: absolute;
+    z-index: 4;
+    width: 20vw;
+    bottom: 6%;
+    right: 20%;
+}
+.luzArbol2{
+    position: absolute;
+    z-index: 5;
+    width: 10vw;
+    bottom: 30%;
+    right: 25%;
+}
+.pij{
+    position: absolute;
+    width: 15vw;
+    bottom: 15%;
+    left: 17%;
+    z-index: 4;
+}
+.acceso{
+    position: absolute;
+    width: 15vw;
+    bottom: 0;
+    left: 35%;
+}
+.regalo1{
+    position: absolute;
+    width: 5vw;
+    z-index: 4;
+    bottom: 30%;
+    left: 33%;
+    
+}
+.regalo4{
+    position: absolute;
+    width: 3vw;
+    z-index: 4;
+    bottom: 36%;
+    left: 39%;
+}
+.regalo3{
+    position: absolute;
+    width: 4vw;
+    z-index: 4;
+    bottom: 0;
+    right: 20%;;
+}
+.regalo2{
+    position: absolute;
+    width: 4vw;
+    z-index: 4;
+    bottom: 0;
+    right: 35%;;
+}
+.autor2{
+    position: absolute;
+ animation-name: autor2;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+    font-family: "Impact";
+    bottom: 15vw;
+    right: 2%;
+    z-index: 6;
+    font-size:1.2vw; 
+   
+}
+@keyframes autor2{
+    0%{
+        color: yellow;
+    transform: none;
+    
+    }
+    25%{
+        color: red;
+    }
+     50%{
+         color:black;
+    transform: scale(1);
+    }
+    75%{color: saddlebrown;
+    
+    }
+    100%{
+        color: blue;
+    transform: none;
+    }
+}
